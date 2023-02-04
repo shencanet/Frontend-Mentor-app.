@@ -86,11 +86,12 @@ body {
 
 .second-section{
   padding-top: 220px;
-  border: 1px solid white;
+  
 }
 
 .card{
-  border: 3px solid red;
+  position: relative;
+  margin-bottom: 105px;
   
 }
 
@@ -105,5 +106,19 @@ body {
 .card__image{
   margin-top: -10px;
   padding-left: 235px;
+
+}
+
+.card__details{
+  background-color: var(--Dark-blue);
+  display: flex;
+  flex-direction: column;
+  height: 122px;
+  justify-content: space-between;
+  padding: 25px;
+  border-radius: 16px;
+  position: absolute;
+  width: 100%;
+  bottom: -85px;
 
 }
