@@ -99,9 +99,11 @@ body {
   height: 80px;
   border-top-left-radius:16px ;
   border-top-right-radius: 16px;
+  overflow: hidden;
 }
 
 .card__image{
   margin-top: -10px;
-  
+  padding-left: 235px;
+
 }
