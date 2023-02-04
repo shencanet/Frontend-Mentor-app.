@@ -7,7 +7,7 @@
 }
 :root {
   --Blue: hsl(246, 80%, 60%);
-  --Light-red: hsl(15, 100%, 70%);
+  --Light-orange: hsl(15, 100%, 70%);
   --Soft-blue: hsl(195, 74%, 62%);
   --Light-red: hsl(348, 100%, 68%);
   --Lime-green: hsl(145, 58%, 55%);
@@ -26,14 +26,15 @@ body {
   color: var(--Pale-Blue);
 }
 .main-container{
-    border: 3px solid white;
+   
     width: 328px;
-    margin: 77px auto;
+    margin: 160px auto;
+    position: relative;
 
 
 }
 .first-section{
-    border: 1px solid yellow;
+    
 }
 
 
@@ -43,10 +44,64 @@ body {
   display: flex;
   border-radius: 16px;
   padding: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .main-card__image{
   width: 72px;
   margin-right: 10px;
   border: 3px solid var(--white);
+  border-radius: 50%;
+}
+.main-card__title{
+  font-size: 0.9em;
+  margin: 10px 0 4px ;
+}
+
+.main-card__name{
+  font-size: 1.6em;
+  font-weight: 300;
+  color: var(--white);
+}
+.main-card__date{
+  background-color: var(--Dark-blue);
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  padding-top: 52px;
+  font-size: 1.2em;
+  position: absolute;
+  width: 100%;
+  top: 106px;
+  /*z-index: 1;*/
+}
+.main-card__frequency:hover{
+  cursor: pointer;
+  color: var(--white);
+}
+  
+
+.second-section{
+  padding-top: 220px;
+  border: 1px solid white;
+}
+
+.card{
+  border: 3px solid red;
+  
+}
+
+.card__background{
+  background-color: var(--Light-orange);
+  height: 80px;
+  border-top-left-radius:16px ;
+  border-top-right-radius: 16px;
+}
+
+.card__image{
+  margin-top: -10px;
+  
 }
