@@ -13,8 +13,40 @@
   --Lime-green: hsl(145, 58%, 55%);
   --Violet: hsl(264, 64%, 52%);
   --Soft-orange: hsl(43, 84%, 65%);
+  --Very-dark-blue: hsl(226, 43%, 10%);
+  --Dark-blue: hsl(235, 46%, 20%);
+  --Desaturated-blue: hsl(235, 45%, 61%);
+  --Pale-Blue: hsl(236, 100%, 87%);
+  --white: white;
 }
 
 body {
+  background-color: var(--Very-dark-blue);
   font-family: "Rubik", sans-serif;
+  color: var(--Pale-Blue);
+}
+.main-container{
+    border: 3px solid white;
+    width: 328px;
+    margin: 77px auto;
+
+
+}
+.first-section{
+    border: 1px solid yellow;
+}
+
+
+
+.main-card__user{
+  background-color: var(--Blue);
+  display: flex;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.main-card__image{
+  width: 72px;
+  margin-right: 10px;
+  border: 3px solid var(--white);
 }
