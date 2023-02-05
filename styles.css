@@ -36,6 +36,11 @@ body {
 .first-section{
     
 }
+.second-section{
+  padding-top: 220px;
+  border: 3px solid white;
+  
+}
 
 
 
@@ -84,10 +89,7 @@ body {
 }
   
 
-.second-section{
-  padding-top: 220px;
-  
-}
+
 
 .card{
   position: relative;
@@ -120,5 +122,58 @@ body {
   position: absolute;
   width: 100%;
   bottom: -85px;
+
+}
+
+.card__details:hover{
+  cursor: pointer;
+  background-color: var(--Desaturated-blue);
+}
+
+.card__activity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__time{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__title{
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.card__hour{
+  font-size: 2em;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width: 1200px){
+
+  .main-container{
+   
+    width: 1150px;
+    display: flex;
+    
+}
+.first-section{
+  border: 3px solid green;
+  width: 290px;
+  height: 564px;
+}
 
 }
